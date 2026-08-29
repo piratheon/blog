@@ -33,7 +33,11 @@ export function head({ title, description, prefix, config, canonicalPath }) {
 }
 
 export function header({ prefix, config, activePath }) {
-  const navItems = [{ label: config.shortTitle || 'Blog', href: `${prefix}index.html` }, ...config.nav];
+  const navItems = [
+    { label: 'Portfolio', href: config.portfolioUrl },
+    { label: config.shortTitle || 'Blog', href: `${prefix}index.html` },
+    ...config.nav,
+  ];
   const links = navItems
     .map((item) => {
       const isActive = activePath && item.href === activePath;

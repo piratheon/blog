@@ -172,7 +172,7 @@ footer.site-footer p { color: var(--ink-dim); font-size: var(--fs-small); }
 }
 .post-card h2 { font-family: var(--font-title); font-weight: 600; font-size: var(--fs-h3); margin-bottom: 0.5rem; }
 .post-excerpt { color: var(--ink-dim); font-size: var(--fs-body); max-width: 62ch; margin-bottom: 0.75rem; }
-.tag-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.tag-list { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; margin: 0; }
 .tag-pill {
   font-size: var(--fs-eyebrow); letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--mint); border: 1px solid var(--mint-soft); background: var(--mint-soft);
