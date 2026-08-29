@@ -3,7 +3,7 @@
   "shortTitle": "Field Notes",
   "description": "Notes on systems programming, ethical security research, and self-hosted agentic AI.",
   "author": "Chafiq El Ibrahimi",
-  "icon": "https://raw.githubusercontent.com/piratheon/piratheon/refs/heads/main/.github/piratheon_eye.svg",
+  "icon": "https://raw.githubusercontent.com/piratheon/piratheon.github.io/refs/heads/main/.github/piratheon_eye.svg",
   "portfolioUrl": "https://piratheon.github.io/",
   "nav": [
     { "label": "Portfolio", "href": "https://piratheon.github.io/" },
