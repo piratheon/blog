@@ -1,0 +1,15 @@
+<p>Most posts should just be Markdown, but sometimes you already have a
+fragment of hand-written HTML — an embed, a table with rowspans, whatever
+Markdown is bad at — and don't want to fight a converter.</p>
+
+<p>Drop a <code>.html</code> file in <code>content/</code> next to a
+same-named <code>.json</code> file for its metadata, and the build will pass
+the HTML straight through into the article template untouched.</p>
+
+<table>
+  <thead><tr><th>Approach</th><th>When to use it</th></tr></thead>
+  <tbody>
+    <tr><td>Markdown + frontmatter</td><td>Almost always</td></tr>
+    <tr><td>Raw HTML + JSON sidecar</td><td>Embeds, complex tables, one-offs</td></tr>
+  </tbody>
+</table>
