@@ -16,6 +16,9 @@
   --font-display: 'Bodoni Moda', 'Iowan Old Style', 'Times New Roman', serif;
   --font-body:    'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono:    'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
+  --font-title:   'Fraunces', 'Iowan Old Style', 'Times New Roman', serif;
+  --font-read:    'Merriweather', Georgia, 'Times New Roman', serif;
+  --font-accent:  'Rubik Dirt', 'Bodoni Moda', cursive;
 
   --fs-hero:    clamp(2.6rem, 8vw, 5.5rem);
   --fs-h2:      clamp(2rem, 5vw, 3.25rem);
@@ -131,6 +134,10 @@ footer.site-footer p { color: var(--ink-dim); font-size: var(--fs-small); }
    BLOG HOME — hero + search + post grid
    ========================================================= */
 .blog-hero { padding-block: clamp(3rem, 7vw, 5rem) clamp(2rem, 5vw, 3rem); border-bottom: 1px solid var(--hairline); }
+.hero-title {
+  font-family: var(--font-accent); font-weight: 400; letter-spacing: 0.01em;
+  line-height: 1.2; font-size: clamp(2.4rem, 7vw, 4.6rem); color: var(--ink);
+}
 
 .search-wrap { margin-top: 2.25rem; max-width: 34rem; }
 .search-box {
@@ -163,7 +170,7 @@ footer.site-footer p { color: var(--ink-dim); font-size: var(--fs-small); }
   font-family: var(--font-body); font-size: var(--fs-eyebrow); letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--ink-dim); white-space: nowrap;
 }
-.post-card h2 { font-size: var(--fs-h3); margin-bottom: 0.5rem; }
+.post-card h2 { font-family: var(--font-title); font-weight: 600; font-size: var(--fs-h3); margin-bottom: 0.5rem; }
 .post-excerpt { color: var(--ink-dim); font-size: var(--fs-body); max-width: 62ch; margin-bottom: 0.75rem; }
 .tag-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .tag-pill {
@@ -178,15 +185,15 @@ footer.site-footer p { color: var(--ink-dim); font-size: var(--fs-small); }
    POST PAGE — article prose
    ========================================================= */
 .post-header { padding-block: clamp(3rem, 7vw, 5rem) clamp(2rem, 4vw, 3rem); border-bottom: 1px solid var(--hairline); }
-.post-header h1 { font-size: var(--fs-hero); max-width: 22ch; margin-block: 1rem 1.25rem; }
+.post-header h1 { font-family: var(--font-title); font-weight: 600; font-size: var(--fs-hero); max-width: 22ch; margin-block: 1rem 1.25rem; }
 .post-meta-line { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; color: var(--ink-dim); font-size: var(--fs-small); }
 .post-meta-line .dot { width: 3px; height: 3px; border-radius: 50%; background: var(--ink-faint); }
 
-article.post-body { padding-block: var(--section-pad); font-size: var(--fs-body-lg); color: var(--ink); }
+article.post-body { padding-block: var(--section-pad); font-family: var(--font-read); font-size: var(--fs-body-lg); color: var(--ink); }
 article.post-body > * + * { margin-top: 1.4em; }
-article.post-body h2 { font-size: var(--fs-h3); margin-top: 2.2em; }
-article.post-body h3 { font-size: 1.2rem; margin-top: 1.8em; }
-article.post-body p { color: var(--ink); line-height: 1.75; }
+article.post-body h2 { font-family: var(--font-read); font-weight: 700; font-size: var(--fs-h3); margin-top: 2.2em; }
+article.post-body h3 { font-family: var(--font-read); font-weight: 700; font-size: 1.2rem; margin-top: 1.8em; }
+article.post-body p { color: var(--ink); line-height: 1.85; }
 article.post-body a { color: var(--mint); border-bottom: 1px solid var(--mint-soft); }
 article.post-body a:hover { border-bottom-color: var(--mint); }
 article.post-body ul, article.post-body ol { padding-left: 1.4em; color: var(--ink); }

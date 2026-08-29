@@ -188,7 +188,7 @@ function renderIndex(posts) {
     <section class="blog-hero">
       <div class="container">
         <span class="eyebrow">Writing</span>
-        <h1 class="page-heading">${escapeHtml(config.title)}</h1>
+        <h1 class="page-heading hero-title">${escapeHtml(config.shortTitle)}</h1>
         <p class="section-intro">${escapeHtml(config.description)}</p>
 
         <div class="search-wrap">
