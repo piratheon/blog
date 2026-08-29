@@ -4,15 +4,9 @@
   "shortTitle": "Field Notes",
   "description": "Notes on systems programming, ethical security research, and self-hosted agentic AI.",
   "author": "Chafiq El Ibrahimi",
-  "icon": "https://raw.githubusercontent.com/piratheon/piratheon.github.io/refs/heads/main/.github/piratheon_eye.svg",
+  "icon": "https://raw.githubusercontent.com/piratheon/piratheon/refs/heads/main/.github/piratheon_eye.svg",
   "portfolioUrl": "https://piratheon.github.io/",
   "nav": [
-    { "label": "GitHub", "href": "https://github.com/piratheon" },
-    { "label": "Email", "href": "mailto:chafiq.dev@gmail.com" },
-    { "label": "Telegram", "href": "https://t.me/piratheon" },
-    { "label": "Facebook", "href": "https://facebook.com/piratheon" },
-    { "label": "Instagram", "href": "https://instagram.com/piratheon" },
-    { "label": "Reddit", "href": "https://reddit.com/user/piratheon" },
-    { "label": "AUR", "href": "https://aur.archlinux.org/account/piratheon" }
+    { "label": "GitHub", "href": "https://github.com/piratheon" }
   ]
 }
