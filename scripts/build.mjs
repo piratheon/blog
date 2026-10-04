@@ -211,7 +211,7 @@ ${cards || '          <p class="no-results">No posts yet.</p>'}
       </div>
     </section>
   </main>
-${footer({ config })}<script src="assets/search.js"></script>
+${footer({ config, prefix: '' })}<script src="assets/search.js"></script>
 </html>
 `;
 }
@@ -251,7 +251,7 @@ function renderPost(post, posts) {
       ${next ? `<a class="text-link" href="../${next.slug}/index.html">${escapeHtml(next.meta.title)} \u2192</a>` : ''}
     </nav>
   </main>
-${footer({ config })}</html>
+${footer({ config, prefix: '../../' })}</html>
 `;
 }
 

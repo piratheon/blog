@@ -61,7 +61,7 @@ export function header({ prefix, config, activePath }) {
 `;
 }
 
-export function footer({ config }) {
+export function footer({ config, prefix }) {
   return `  <footer class="site-footer">
     <div class="container">
       <p>&copy; <span id="year"></span> ${escapeHtml(config.author)}.</p>
@@ -69,6 +69,7 @@ export function footer({ config }) {
     </div>
   </footer>
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="${prefix}assets/main.js"></script>
 </body>
 </html>
 `;
