@@ -3,7 +3,7 @@ title: "Hello Everyone!"
 date: "2026-10-04"
 ---
 *This is my first post, so I figured I'd use it to introduce myself XD*
-![lain2.gif](/preview/posts/2026-10-04-hello-everyone/lain2.gif)
+![lain2.gif](lain2.gif)
 I'm Chafiq, but you can call me Piratheon.
 I'm 19, a student, and I'm into a bunch of stuff:
 - AI
